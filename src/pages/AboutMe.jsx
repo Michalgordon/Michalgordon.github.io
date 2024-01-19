@@ -3,7 +3,7 @@ import {
   ProfilePicture,
   RandomFacts,
   MyExperience,
-  Skills,
+  SkillsList,
 } from "../components";
 import { motion, useInView } from "framer-motion";
 import { Fragment, useRef } from "react";
@@ -94,7 +94,7 @@ const AboutMe = () => {
       </div>
       <div className="relative flex flex-grow flex-col gap-10  laptop:gap-20 px-4 pb-10 laptop:px-20 laptop:py-10 shadow-xl">
         <h2 className="section-header">Skills.</h2>
-        <Skills></Skills>
+        <SkillsList></SkillsList>
       </div>
 
       <div className="hidden laptop:flex flex-col gap-10 px-4 pb-10 laptop:px-20 laptop:py-10 shadow-xl">

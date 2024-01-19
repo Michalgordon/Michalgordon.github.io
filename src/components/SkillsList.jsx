@@ -1,7 +1,7 @@
 import { Skill } from "./index";
 import { SKILLS } from "../constants";
 import { Fragment } from "react";
-const Skills = () => {
+const SkillsList = () => {
   return (
     <Fragment>
       <div className="grid grid-cols-3 tablet:grid-cols-4 laptop:grid-cols-5 laptop:grid-flow-row gap-8">
@@ -12,4 +12,4 @@ const Skills = () => {
     </Fragment>
   );
 };
-export default Skills;
+export default SkillsList;

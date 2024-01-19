@@ -8,6 +8,6 @@ import ProjectCard from "./ProjectCard";
 import ProfilePicture from "./ProfilePicture"
 import RandomFacts from "./RandomFacts";
 import MyExperience from "./MyExperience";
-import Skills from "./skills";
+import SkillsList from "./SkillsList";
 import Tooltip from "./Tooltip";
-export { Header, Footer, Skill, Icon, ExperienceCard, ScrollingBanner, ProjectCard, ProfilePicture, RandomFacts, MyExperience, Skills, Tooltip}
+export { Header, Footer, Skill, Icon, ExperienceCard, ScrollingBanner, ProjectCard, ProfilePicture, RandomFacts, MyExperience, SkillsList, Tooltip}
