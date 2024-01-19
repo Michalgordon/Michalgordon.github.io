@@ -1,8 +1,8 @@
 export const PAGES = [
-  { title: "Home", path: "/michalgordon.github.io/" },
-  { title: "About Me", path: "/michalgordon.github.io/about" },
-  { title: "My Projects", path: "/michalgordon.github.io/projects" },
-  { title: "Contact me", path: "/michalgordon.github.io/contact" },
+  { title: "Home", path: "/" },
+  { title: "About Me", path: "/about" },
+  { title: "My Projects", path: "/projects" },
+  { title: "Contact me", path: "/contact" },
 ];
 export const FOOTER_LINKS = [
     {
@@ -135,7 +135,7 @@ export const SKILLS = [
   export const PROJECTS = [
     {
       title: "Personal Portfolio",
-      imgSrc: "/michalgordon.github.io/personal-website.png",
+      imgSrc: "./personal-website.png",
       links: [
         {
           title: "Github",
@@ -156,7 +156,7 @@ export const SKILLS = [
     },
     {
       title: "botanica",
-      imgSrc: "/michalgordon.github.io/botanica.png",
+      imgSrc: "./botanica.png",
       links: [
         {
           title: "GitHub",
@@ -188,7 +188,7 @@ export const SKILLS = [
     },
     {
       title: "WhatsApp Extension",
-      imgSrc: "/michalgordon.github.io/whatsapp-extension.png",
+      imgSrc: "./whatsapp-extension.png",
       links: [
         {
           title: "Geektime",
