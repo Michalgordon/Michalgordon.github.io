@@ -135,7 +135,7 @@ export const SKILLS = [
   export const PROJECTS = [
     {
       title: "Personal Portfolio",
-      imgSrc: "./personal-website.png",
+      imgSrc: "/vite-project/personal-website.png",
       links: [
         {
           title: "Github",
@@ -156,7 +156,7 @@ export const SKILLS = [
     },
     {
       title: "botanica",
-      imgSrc: "./botanica.png",
+      imgSrc: "/vite-project/botanica.png",
       links: [
         {
           title: "GitHub",
@@ -188,7 +188,7 @@ export const SKILLS = [
     },
     {
       title: "WhatsApp Extension",
-      imgSrc: "./whatsapp-extension.png",
+      imgSrc: "/vite-project/whatsapp-extension.png",
       links: [
         {
           title: "Geektime",
