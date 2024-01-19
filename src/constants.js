@@ -1,8 +1,8 @@
 export const PAGES = [
-  { title: "Home", path: "vite-project/" },
-  { title: "About Me", path: "vite-project/about" },
-  { title: "My Projects", path: "vite-project/projects" },
-  { title: "Contact me", path: "vite-project/contact" },
+  { title: "Home", path: "/vite-project/" },
+  { title: "About Me", path: "/vite-project/about" },
+  { title: "My Projects", path: "/vite-project/projects" },
+  { title: "Contact me", path: "/vite-project/contact" },
 ];
 export const FOOTER_LINKS = [
     {

@@ -10,15 +10,15 @@ function App() {
       <div className="laptop:h-full flex flex-col laptop:flex-row flex-grow overflow-auto">
         <Suspense>
           <AnimatePresence>
-            <Outlet></Outlet>
+            <Outlet key="outlet"></Outlet>
             <div className="laptop:hidden">
-              <Footer></Footer>
+              <Footer key="mobile-footer"></Footer>
             </div>
           </AnimatePresence>
         </Suspense>
       </div>
       <div className="hidden laptop:flex">
-        <Footer></Footer>
+        <Footer key="laptop-footer"></Footer>
       </div>
     </div>
   );

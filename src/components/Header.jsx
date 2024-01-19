@@ -9,7 +9,8 @@ const Header = () => {
   let location = useLocation();
   const headerTitle = () => {
     const page = PAGES.find((page) => {
-      return page.path === location.pathname && page.path != "/";
+      console.log(location.pathname,page.path )
+      return page.path === location.pathname && page.path != "/vite-project/";
     });
     return page ? page.title + "." : null;
   };

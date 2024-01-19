@@ -65,14 +65,14 @@ const AboutMe = () => {
             >
               About Me.
             </motion.h2>
-            <motion.p
+            <motion.div
               className="flex flex-col gap-3"
               initial={{ opacity: 0 }}
               animate={{ opacity: "100%" }}
               transition={{ delay: 0.2, ease: "easeOut", duration: 1 }}
             >
               {blurb}
-            </motion.p>
+            </motion.div>
           </div>
         </div>
         <motion.div

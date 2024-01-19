@@ -40,7 +40,7 @@ ExperienceCard.propTypes = {
   location: PropTypes.string,
   company: PropTypes.string,
   title: PropTypes.string,
-  info: PropTypes.string,
+  info: PropTypes.array,
   className: PropTypes.string,
 };
 export default ExperienceCard;
