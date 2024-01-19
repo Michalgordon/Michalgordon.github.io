@@ -9,19 +9,19 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/vite-project",
+        path: "/michalgordon.github.io",
         element: <Hero />,
       },
       {
-        path: "vite-project/about",
+        path: "michalgordon.github.io/about",
         element: <AboutMe />,
       },
       {
-        path: "vite-project/projects",
+        path: "michalgordon.github.io/projects",
         element: <MyProjects />,
       },
       {
-        path: "vite-project/contact",
+        path: "michalgordon.github.io/contact",
         element: <ContactMe />,
       },
     ],

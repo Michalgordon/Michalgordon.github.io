@@ -1,8 +1,8 @@
 export const PAGES = [
-  { title: "Home", path: "/vite-project/" },
-  { title: "About Me", path: "/vite-project/about" },
-  { title: "My Projects", path: "/vite-project/projects" },
-  { title: "Contact me", path: "/vite-project/contact" },
+  { title: "Home", path: "/michalgordon.github.io/" },
+  { title: "About Me", path: "/michalgordon.github.io/about" },
+  { title: "My Projects", path: "/michalgordon.github.io/projects" },
+  { title: "Contact me", path: "/michalgordon.github.io/contact" },
 ];
 export const FOOTER_LINKS = [
     {
@@ -135,12 +135,12 @@ export const SKILLS = [
   export const PROJECTS = [
     {
       title: "Personal Portfolio",
-      imgSrc: "/vite-project/personal-website.png",
+      imgSrc: "/michalgordon.github.io/personal-website.png",
       links: [
         {
           title: "Github",
           iconName: "github",
-          href: "https://github.com/Michalgordon/vite-project",
+          href: "https://github.com/Michalgordon/michalgordon.github.io",
           download: false,
         },
       ],
@@ -156,7 +156,7 @@ export const SKILLS = [
     },
     {
       title: "botanica",
-      imgSrc: "/vite-project/botanica.png",
+      imgSrc: "/michalgordon.github.io/botanica.png",
       links: [
         {
           title: "GitHub",
@@ -188,7 +188,7 @@ export const SKILLS = [
     },
     {
       title: "WhatsApp Extension",
-      imgSrc: "/vite-project/whatsapp-extension.png",
+      imgSrc: "/michalgordon.github.io/whatsapp-extension.png",
       links: [
         {
           title: "Geektime",
