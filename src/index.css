@@ -1,68 +1,221 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html, body {
+  height: 100%;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+::-webkit-scrollbar{
+  display: none;
 }
-a:hover {
-  color: #535bf2;
+#root {
+  width: 100vw;
+  height: 100%;
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
-
-body {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+li, ul{
+  list-style-type: none;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+@layer components {
+input  {
+  @apply border-russian-blue px-5 py-3 text-base w-full border-2 text-gray-500 rounded-[2rem] h-10 box-border outline-none
 }
+textarea{
+  @apply border-russian-blue px-5 py-3 text-base w-full border-2 text-gray-500 rounded-[2rem] box-border outline-none
+}
+
+button, button[type="submit"] {
+  @apply text-base rounded-[2rem] h-10 box-border uppercase 
+}
+h1, h2, h3{
+  @apply text-sea-kelp
+}
+p{
+  @apply text-sea-kelp
+}
+a{
+  @apply  text-sea-kelp hover:font-semibold
+}
+a > .icon {
+  @apply  hover:[filter:drop-shadow(3px_5px_2px_rgb(154_174_187/_0.4))]
+}
+a:not(.active){
+  @apply font-medium
+}
+.active {
+  @apply font-semibold
+}
+.active:after{
+  content: '.';
+  @apply w-0 inline-block
+}
+
+.header{
+  @apply w-full h-full z-40 fixed flex flex-col gap-10 laptop:gap-0 bg-white items-center justify-center
+}
+.header-laptop{
+  @apply w-full flex static flex-row items-center px-10 h-20 min-h-[80px] border-b-2 border-russian-blue shadow-xl justify-normal bg-white
+}
+.footer{
+  @apply w-full flex flex-col justify-center items-center pb-2 laptop:pb-0
+}
+.footer-laptop{
+  @apply min-h-[80px] border-t-2 border-russian-blue shadow-[25px_0_50px_-12px_rgba(0,0,0,0.3)]
+}
+.section-header{
+  @apply flex laptop:justify-end text-4xl laptop:text-5xl font-semibold laptop:h-0
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.msg-bubble{
+  position: relative;
+}
+.msg-bubble:before {
+  width: 20px;
+  background-color: white; /* All tails have the same bg cutout */
+  border-bottom-right-radius: 16px 14px;
+  left:-10px;
+
+  @apply bg-russian-blue
+
+
+}
+
+.msg-bubble:after {
+  width: 20px;
+  background-color: white;
+  border-bottom-right-radius: 16px 14px;
+  left:-20px;
+}
+
+.msg-bubble:before,
+.msg-bubble:after {
+  position: absolute;
+  bottom: 0;
+  height:30px; /* height of our bubble "tail" - should match the border-radius above */
+  content: '';
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  text-align: center;
+
+  /* Position the tooltip */
+  bottom: 105%;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: 1;
+  @apply absolute bg-white border-[1px] text-xs border-pewter-blue rounded-md text-pewter-blue whitespace-nowrap p-1 px-2
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  @apply text-xs
+}
+
+
+.timeline{
+  --timeline-width: 2px;
+  --content-padding-x: 48px;
+  --arrow-top-correction: 28px;
+  --circle-w: 40px;
+  --icon-w: 28px;
+  --circle-border: 2px;
+  --circle-right-correction: calc(((var(--circle-w) + var(--circle-border))/2) ) ;
+  --right-correction: calc(var(--timeline-width) + var(--circle-border));
+  --circle-top-correction: calc(var(--arrow-top-correction) + (var(--circle-w)/2));
+  @apply relative flex flex-col w-full justify-center gap-6
+}
+.timeline::after {
+  border: var(--timeline-width) solid transparent;
+  border-bottom: none ;
+  border-left: none;
+  border-top: none;
+  @apply  content-[''] absolute w-1/2 -mr-[1px] -top-0 bottom-0 right-1/2 border-russian-blue
+}
+
+/* Container around content */
+.timeline-container {
+  @apply relative w-1/2 flex px-[var(--content-padding-x)]
+}
+
+.timeline-icon{
+  /* top: var(--arrow-top-correction); */
+  @apply absolute z-20 shadow-lg
+
+}
+.timeline-icon--right{
+  transform: translate(-50%);
+  left: 0;
+}
+.timeline-icon--left{
+  transform: translate(50%);
+  right: 0;
+
+}
+.timeline-container--left {
+  @apply justify-end
+}
+
+/* Place the container to the right */
+.timeline-container--right {
+  @apply left-1/2
+}
+/* Fix the circle for containers on the right side */
+.timeline-container--right::after {
+  transform: translateX(-50%);
+  left: 0;
+}
+
+.timeline-container--left:after{
+  transform: translateX(50%);
+  right: 0;
+}
+/* Add arrows to the left container (pointing right) */
+.border-arrow{
+  @apply content-[''] absolute z-10  w-5 aspect-square border-2 border-russian-blue rotate-45 bg-white ;
+
+}
+.border-arrow--left::before {
+  @apply border-arrow border-b-0 border-l-0 -right-[12px] top-[var(--arrow-top-correction)];
+   
+}
+/* Add arrows to the right container (pointing left) */
+.border-arrow--right::before {
+  left: -12px;
+  @apply border-arrow border-t-0 border-r-0 top-[var(--arrow-top-correction)];
+}
+.border-arrow--bottom::before {
+  left: 50%;
+  bottom: -7px;
+  transform-origin: 0 0;
+  transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%);
+  @apply border-arrow border-t-0 border-l-0;
+}
+
+
+}
+
