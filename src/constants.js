@@ -135,7 +135,7 @@ export const SKILLS = [
   export const PROJECTS = [
     {
       title: "Personal Portfolio",
-      imgSrc: "./personal-website.png",
+      imgSrc: "/michalgordon.github.io/personal-website.png",
       links: [
         {
           title: "Github",
@@ -156,7 +156,7 @@ export const SKILLS = [
     },
     {
       title: "botanica",
-      imgSrc: "./botanica.png",
+      imgSrc: "/michalgordon.github.io/botanica.png",
       links: [
         {
           title: "GitHub",
@@ -188,7 +188,7 @@ export const SKILLS = [
     },
     {
       title: "WhatsApp Extension",
-      imgSrc: "./whatsapp-extension.png",
+      imgSrc: "/michalgordon.github.io/whatsapp-extension.png",
       links: [
         {
           title: "Geektime",
