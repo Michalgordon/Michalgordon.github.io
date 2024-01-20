@@ -92,12 +92,12 @@ const AboutMe = () => {
           ></Icon>
         </motion.div>
       </div>
-      <div className="relative flex flex-grow flex-col gap-10  laptop:gap-20 px-4 pb-10 laptop:px-20 laptop:py-10 shadow-xl">
+      <div className="relative flex flex-grow flex-col gap-10 laptop:gap-20 px-4 pb-10 laptop:px-20 laptop:py-10 shadow-xl">
         <h2 className="section-header pl-2 laptop:pl-0">Skills.</h2>
         <SkillsList></SkillsList>
       </div>
 
-      <div className="hidden laptop:flex flex-col gap-10 px-4 pb-10 laptop:px-20 laptop:py-10 shadow-xl">
+      <div className="flex flex-grow flex-col gap-10 laptop:gap-20 px-4 pb-10 laptop:px-20 laptop:py-10 shadow-xl">
         <h2 className="section-header pl-2 laptop:pl-0">My Experience.</h2>
         <MyExperience></MyExperience>
       </div>

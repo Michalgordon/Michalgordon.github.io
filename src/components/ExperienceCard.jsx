@@ -11,9 +11,9 @@ const ExperienceCard = ({
 }) => {
   return (
     <div
-      className={`group flex flex-col gap-2 justify-center p-4 rounded-xl text-sm shadow-md ${className} `}
+      className={`group flex flex-col gap-4 laptop:gap-2 justify-center p-4 rounded-xl text-sm shadow-md ${className} `}
     >
-      <div className="relative overflow-hidden capitalize flex flex-col ">
+      <div className="relative overflow-hidden capitalize text-center laptop:text-left flex flex-col ">
         <div className="">
           <h3 className="text-xs">{timeLine}</h3>
           <h1 className="text-xl uppercase font-thin">{title}</h1>

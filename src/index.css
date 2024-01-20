@@ -159,40 +159,36 @@ a:not(.active){
 
 /* Container around content */
 .timeline-container {
-  @apply relative w-1/2 flex px-[var(--content-padding-x)]
+  @apply relative w-full  laptop:w-1/2 flex flex-col laptop:flex-row px-[var(--content-padding-x)]
 }
 
 .timeline-icon{
-  /* top: var(--arrow-top-correction); */
-  @apply absolute z-20 shadow-lg
+  @apply laptop:absolute z-20 shadow-lg self-center translate-y-1/2 laptop:translate-y-0
 
 }
 .timeline-icon--right{
-  transform: translate(-50%);
-  left: 0;
+  @apply laptop:left-0 laptop:-translate-x-1/2	
 }
 .timeline-icon--left{
-  transform: translate(50%);
-  right: 0;
+  @apply laptop:right-0 laptop:translate-x-1/2	
+
 
 }
 .timeline-container--left {
-  @apply justify-end
+  @apply laptop:justify-end
 }
 
 /* Place the container to the right */
 .timeline-container--right {
-  @apply left-1/2
+  @apply laptop:left-1/2
 }
 /* Fix the circle for containers on the right side */
 .timeline-container--right::after {
-  transform: translateX(-50%);
-  left: 0;
+  @apply laptop:left-0 laptop:-translate-x-1/2 
 }
 
 .timeline-container--left:after{
-  transform: translateX(50%);
-  right: 0;
+  @apply laptop:right-0 laptop:translate-x-1/2
 }
 /* Add arrows to the left container (pointing right) */
 .border-arrow{

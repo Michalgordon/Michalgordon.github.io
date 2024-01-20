@@ -6,7 +6,7 @@ const MyExperience = () => {
     <div className="timeline">
       <ProfilePicture
         className={
-          "relative timeline-icon z-10 left-1/2 -translate-x-1/2 w-40 border-2 border-russian-blue bg-russian-blue mb-20"
+          "self-center z-10 w-40 border-2 border-russian-blue bg-russian-blue mb-10 laptop:mb-20"
         }
       ></ProfilePicture>
 
@@ -32,17 +32,17 @@ ${(index + 1) % 2 == 0 ? "timeline-icon--left" : "timeline-icon--right"}`}
 
             <ExperienceCard
               {...experienceItem}
-              className={`relative border-2 border-russian-blue ${
+              className={`relative z-10 bg-white pt-8 laptop:pt-4 border-2 border-russian-blue ${
                 (index + 1) % 2 == 0
-                  ? "border-arrow--left"
-                  : "border-arrow--right"
+                  ? "laptop:border-arrow--left"
+                  : "laptop:border-arrow--right"
               }`}
             ></ExperienceCard>
           </div>
         </div>
       ))}
       <img
-        className="relative timeline-icon z-10 left-1/2 -translate-x-1/2 w-40 aspect-square rounded-full border-2 border-russian-blue bg-russian-blue mt-20 shadow-lg"
+        className="self-center z-10 w-40 aspect-square rounded-full border-2 border-russian-blue bg-russian-blue mt-10 laptop:mt-20 shadow-lg"
         src="./assets/images/mikey-highschool.png"
       ></img>
     </div>
