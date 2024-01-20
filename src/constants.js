@@ -134,25 +134,28 @@ export const SKILLS = [
   ];
   export const PROJECTS = [
     {
-      title: "Personal Portfolio",
-      imgSrc: "./assets/images/personal-website.png",
+      title: "WhatsApp Extension",
+      imgSrc: "./assets/images/whatsapp-extension.png",
       links: [
         {
-          title: "Github",
-          iconName: "github",
-          href: "https://github.com/Michalgordon/michalgordon.github.io",
+          title: "Geektime",
+          iconName: "external-link-alt-solid",
+          href: "https://www.geektime.co.il/chrome-whatsapp-messages/?fbclid=IwAR01mMmlvUkjOMvnK0bSllA6PLHkm2dxmXuLoe3axdjPR-tBpmLqoLPOpKs",
+          download: false,
+        },
+        {
+          title: "Store",
+          iconName: "chrome",
+          href: "https://chromewebstore.google.com/detail/olivia-for-recruiters/ldcjdglgbpfldnfebjkejpppfiedkkec?hl=en-GB",
           download: false,
         },
       ],
       skills: [
-        { iconName: "react", tooltip: "react" },
         { iconName: "js-square", tooltip: "Javascript"  },
-        { iconName: "html5", tooltip: "HTML" },
-        { iconName: "css3-alt", tooltip: "CSS" },
-        {iconName: "framer-logo", tooltip: "Framer Motion"},
-        { iconName: "tailwindcss", tooltip: "tailwind" },
+        { iconName: "puzzle-piece-solid", tooltip: "Chrome Extension" },
+        { iconName: "whatsapp", tooltip: "Whatsapp API" },
       ],
-      info: "My personal website that I designed and implemented",
+      info: "A chrome extension using WhatsApp API written about in Geektime magazine!",
     },
     {
       title: "botanica",
@@ -186,28 +189,26 @@ export const SKILLS = [
       ],
       info: "A responsive website I developed using a friend's design!",
     },
+
     {
-      title: "WhatsApp Extension",
-      imgSrc: "./assets/images/whatsapp-extension.png",
+      title: "Personal Portfolio",
+      imgSrc: "./assets/images/personal-website.png",
       links: [
         {
-          title: "Geektime",
-          iconName: "external-link-alt-solid",
-          href: "https://www.geektime.co.il/chrome-whatsapp-messages/?fbclid=IwAR01mMmlvUkjOMvnK0bSllA6PLHkm2dxmXuLoe3axdjPR-tBpmLqoLPOpKs",
-          download: false,
-        },
-        {
-          title: "Store",
-          iconName: "chrome",
-          href: "https://chromewebstore.google.com/detail/olivia-for-recruiters/ldcjdglgbpfldnfebjkejpppfiedkkec?hl=en-GB",
+          title: "Github",
+          iconName: "github",
+          href: "https://github.com/Michalgordon/michalgordon.github.io",
           download: false,
         },
       ],
       skills: [
+        { iconName: "react", tooltip: "react" },
         { iconName: "js-square", tooltip: "Javascript"  },
-        { iconName: "puzzle-piece-solid", tooltip: "Chrome Extension" },
-        { iconName: "whatsapp", tooltip: "Whatsapp API" },
+        { iconName: "html5", tooltip: "HTML" },
+        { iconName: "css3-alt", tooltip: "CSS" },
+        {iconName: "framer-logo", tooltip: "Framer Motion"},
+        { iconName: "tailwindcss", tooltip: "tailwind" },
       ],
-      info: "A chrome extension using WhatsApp API written about in Geektime magazine!",
+      info: "My personal website that I designed and implemented",
     },
   ];
