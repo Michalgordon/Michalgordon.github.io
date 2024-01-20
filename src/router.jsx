@@ -13,15 +13,15 @@ const router = createBrowserRouter([
         element: <Hero />,
       },
       {
-        path: "/about",
+        path: "michalgordon.github.io/about",
         element: <AboutMe />,
       },
       {
-        path: "/projects",
+        path: "michalgordon.github.io/projects",
         element: <MyProjects />,
       },
       {
-        path: "/contact",
+        path: "michalgordon.github.io/contact",
         element: <ContactMe />,
       },
     ],
