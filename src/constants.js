@@ -47,8 +47,9 @@ export const SKILLS = [
     { title: "Figma", iconName: "figma", info: "where UI components are born" },
     { title: "Jira", iconName: "jira", info: "for an agile team that moves FAST" },
     { title: "Tailwind", iconName: "tailwindcss", info: "Let's go Utility classes!" },
+    { title: "Make", iconName: "integromat", info: "Automated complex workflows" },
     { title: "Framer Motion", iconName: "framer-logo", info: "Check out my website's page transitions!" },
-    { title: "Make", iconName: "framer-logo", info: "Automated complex workflows" },
+
   ];
   export const SOFT_SKILLS =[
     { title: "Part of the ship, part of the crew", iconName: "ship-solid", info: "I love being a part of something, and thrive when i work with others" },
