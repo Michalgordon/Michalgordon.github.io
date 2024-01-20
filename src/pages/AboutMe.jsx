@@ -56,7 +56,7 @@ const AboutMe = () => {
               className={"w-full laptop:w-[25rem]"}
             ></ProfilePicture>
           </motion.div>
-          <div className="flex flex-col laptop:w-2/3 text-base text-justify px-8 ">
+          <div className="flex flex-col laptop:w-2/3 text-base text-justify px-4">
             <motion.h2
               className="hidden laptop:flex section-header laptop:relative laptop:-top-20"
               initial={{ y: -150 }}
@@ -93,17 +93,17 @@ const AboutMe = () => {
         </motion.div>
       </div>
       <div className="relative flex flex-grow flex-col gap-10  laptop:gap-20 px-4 pb-10 laptop:px-20 laptop:py-10 shadow-xl">
-        <h2 className="section-header">Skills.</h2>
+        <h2 className="section-header pl-2 laptop:pl-0">Skills.</h2>
         <SkillsList></SkillsList>
       </div>
 
       <div className="hidden laptop:flex flex-col gap-10 px-4 pb-10 laptop:px-20 laptop:py-10 shadow-xl">
-        <h2 className="section-header">My Experience.</h2>
+        <h2 className="section-header pl-2 laptop:pl-0">My Experience.</h2>
         <MyExperience></MyExperience>
       </div>
       <div className="flex flex-grow flex-col gap-10 laptop:gap-20 px-4 pb-10 laptop:px-20 laptop:py-10 laptop:shadow-xl">
-        <h2 className="section-header">Random Facts.</h2>
-        <div className="flex flex-grow flex-col justify-center items-center gap-4">
+        <h2 className="section-header pl-2 laptop:pl-0">Random Facts.</h2>
+        <div className="flex flex-grow flex-col justify-center items-center gap-4 px-4">
           <RandomFacts></RandomFacts>
         </div>
       </div>
