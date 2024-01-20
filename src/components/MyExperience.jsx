@@ -43,7 +43,7 @@ ${(index + 1) % 2 == 0 ? "timeline-icon--left" : "timeline-icon--right"}`}
       ))}
       <img
         className="relative timeline-icon z-10 left-1/2 -translate-x-1/2 w-40 aspect-square rounded-full border-2 border-russian-blue bg-russian-blue mt-20 shadow-lg"
-        src="./mikey-highschool.png"
+        src="./assets/images/mikey-highschool.png"
       ></img>
     </div>
   );

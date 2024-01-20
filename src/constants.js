@@ -20,7 +20,7 @@ export const FOOTER_LINKS = [
     {
       title: "Resume",
       iconName: "file-download-solid",
-      href: "/Resume - Michal Gordon.pdf",
+      href: "./assets/files//Resume - Michal Gordon.pdf",
       download: true,
     },
 ]
@@ -135,7 +135,7 @@ export const SKILLS = [
   export const PROJECTS = [
     {
       title: "Personal Portfolio",
-      imgSrc: "/michalgordon.github.io/personal-website.png",
+      imgSrc: "./assets/images/personal-website.png",
       links: [
         {
           title: "Github",
@@ -156,7 +156,7 @@ export const SKILLS = [
     },
     {
       title: "botanica",
-      imgSrc: "/michalgordon.github.io/botanica.png",
+      imgSrc: "./assets/images/botanica.png",
       links: [
         {
           title: "GitHub",
@@ -188,7 +188,7 @@ export const SKILLS = [
     },
     {
       title: "WhatsApp Extension",
-      imgSrc: "/michalgordon.github.io/whatsapp-extension.png",
+      imgSrc: "./assets/images/whatsapp-extension.png",
       links: [
         {
           title: "Geektime",
