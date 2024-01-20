@@ -45,7 +45,7 @@ const AboutMe = () => {
         ref={ref}
         className="relative flex flex-col px-4 pb-10 laptop:px-20 laptop:py-10 laptop:min-h-full laptop:box-border laptop:justify-center shadow-xl"
       >
-        <div className="flex flex-col laptop:flex-row gap-5 laptop:gap-10 justify-center items-center">
+        <div className="flex flex-col laptop:flex-row gap-6 laptop:gap-10 justify-center items-center">
           <motion.div
             className="flex flex-col w-1/2 laptop:w-1/3 justify-center"
             initial={{ x: "200%" }}
@@ -101,7 +101,7 @@ const AboutMe = () => {
         <h2 className="section-header pl-2 laptop:pl-0">My Experience.</h2>
         <MyExperience></MyExperience>
       </div>
-      <div className="flex flex-grow flex-col gap-10 laptop:gap-20 px-4 pb-10 laptop:px-20 laptop:py-10 laptop:shadow-xl">
+      <div className="flex flex-grow laptop:min-h-full flex-col gap-10 laptop:gap-20 px-4 pb-10 laptop:px-20 laptop:py-10 laptop:shadow-xl">
         <h2 className="section-header pl-2 laptop:pl-0">Random Facts.</h2>
         <div className="flex flex-grow flex-col justify-center items-center gap-4 px-4">
           <RandomFacts></RandomFacts>
