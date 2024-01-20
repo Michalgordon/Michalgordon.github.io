@@ -63,7 +63,7 @@ const ContactMe = () => {
         Contact Me.
       </motion.h2>
 
-      <div className="flex flex-col justify-center items-center gap-12 laptop:gap-12">
+      <div className="flex flex-col justify-center items-center gap-6 laptop:gap-12 laptop:gap-12">
         <motion.div
           className="flex justify-center gap-3"
           initial={{ y: "100%", opacity: 0 }}
@@ -71,7 +71,7 @@ const ContactMe = () => {
           transition={{ delay: 0.5, duration: 0.7, type: "spring" }}
         >
           <ProfilePicture className={"w-16 self-end z-10"}></ProfilePicture>
-          <h1 className="msg-bubble text-xl laptop:text-3xl w-[60%] font-thin text-white bg-russian-blue rounded-[2rem] pl-5 pr-3 py-3 shadow-md self-end">
+          <h1 className="msg-bubble text-base laptop:text-3xl w-[60%] font-thin text-white bg-russian-blue rounded-[2rem] pl-5 pr-3 py-3 shadow-md self-end">
             I'm always excited to hear from new people and tackle new
             challenges!
           </h1>
