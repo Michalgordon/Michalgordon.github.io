@@ -120,7 +120,7 @@ export const SKILLS = [
       location: "Israel Defense Forces",
       company: "Air Defense command",
       title: "Staff Sergeant",
-      info: ["Completed training as a combat solider with Rifleman 03 certification","Specialized in the HAWK and Arrow missile systems"],
+      info: ["Completed combat training with Rifleman 03 certification","Specialized in the HAWK and Arrow missile systems"],
       iconName: "rocket-solid",
     },
     {
