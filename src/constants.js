@@ -136,7 +136,7 @@ export const SKILLS = [
   export const PROJECTS = [
     {
       title: "WhatsApp Extension",
-      imgSrc: "./images/whatsapp-extension.png",
+      imgSrc: "/assets/images/whatsapp-extension.png",
       links: [
         {
           title: "Geektime",
@@ -160,7 +160,7 @@ export const SKILLS = [
     },
     {
       title: "botanica",
-      imgSrc: "./images/botanica.png",
+      imgSrc: "/assets/images/botanica.png",
       links: [
         {
           title: "GitHub",
@@ -193,7 +193,7 @@ export const SKILLS = [
 
     {
       title: "Personal Portfolio",
-      imgSrc: "./images/personal-website.png",
+      imgSrc: "/assets/images/personal-website.png",
       links: [
         {
           title: "Github",
