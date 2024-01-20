@@ -40,7 +40,7 @@ const AboutMe = () => {
     </Fragment>
   );
   return (
-    <div className="w-full flex flex-col gap-10">
+    <div className="w-full flex flex-col gap-10 pt-10 laptop:pt-0">
       <div
         ref={ref}
         className="relative flex flex-col px-4 pb-10 laptop:px-20 laptop:py-10 laptop:min-h-full laptop:box-border laptop:justify-center shadow-xl"
