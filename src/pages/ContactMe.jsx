@@ -71,7 +71,7 @@ const ContactMe = () => {
           transition={{ delay: 0.5, duration: 0.7, type: "spring" }}
         >
           <ProfilePicture className={"w-16 self-end z-10"}></ProfilePicture>
-          <h1 className="msg-bubble text-base laptop:text-3xl w-[60%] font-thin text-white bg-russian-blue rounded-[2rem] pl-5 pr-3 py-3 shadow-md self-end">
+          <h1 className="msg-bubble text-base laptop:text-3xl w-[60%] font-light laptop:font-thin text-white bg-russian-blue rounded-[2rem] pl-5 pr-3 py-3 shadow-md self-end">
             I'm always excited to hear from new people and tackle new
             challenges!
           </h1>

@@ -91,32 +91,19 @@ a:not(.active){
 }
 
 .msg-bubble{
-  position: relative;
+  @apply relative
 }
 .msg-bubble:before {
-  width: 20px;
-  background-color: white; /* All tails have the same bg cutout */
-  border-bottom-right-radius: 16px 14px;
-  left:-10px;
-
-  @apply bg-russian-blue
-
-
+  @apply w-5 bg-russian-blue -left-[10px] rounded-br-2xl
 }
 
 .msg-bubble:after {
-  width: 20px;
-  background-color: white;
-  border-bottom-right-radius: 16px 14px;
-  left:-20px;
+  @apply w-5 bg-white rounded-br-2xl -left-5
 }
 
 .msg-bubble:before,
 .msg-bubble:after {
-  position: absolute;
-  bottom: 0;
-  height:30px; /* height of our bubble "tail" - should match the border-radius above */
-  content: '';
+  @apply absolute h-7 bottom-0 content-['']
 }
 
 .tooltip .tooltiptext {
