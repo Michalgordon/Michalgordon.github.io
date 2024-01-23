@@ -11,7 +11,7 @@ const MyExperience = () => {
       ></ProfilePicture>
 
       {EXPERIENCE_LIST.map((experienceItem, index) => (
-        <div key={index} className="flex">
+        <div key={index}  className={`flex laptop:-mt-10 `}>
           <div
             className={`timeline-container ${
               (index + 1) % 2 == 0

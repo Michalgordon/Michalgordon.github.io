@@ -146,7 +146,7 @@ a:not(.active){
 
 /* Container around content */
 .timeline-container {
-  @apply relative w-full  laptop:w-1/2 flex flex-col laptop:flex-row px-[var(--content-padding-x)]
+  @apply relative w-full laptop:w-1/2 flex flex-col laptop:flex-row px-[var(--content-padding-x)]
 }
 
 .timeline-icon{
