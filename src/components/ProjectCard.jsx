@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const ProjectCard = ({ title, info, links, skills, imgSrc }) => {
   return (
-    <div className="relative flex flex-col w-80 border-russian-blue border-2 rounded-md p-4 pb-2 justify-center items-center gap-4 bg-white shadow-md ">
+    <div className="relative flex flex-col  w-80 border-russian-blue border-2 rounded-md p-4 pb-2 justify-center items-center gap-4 bg-white shadow-md ">
       <div className="flex flex-col gap-1">
         <h1 className=" text-xl uppercase font-thin text-center">
           - {title} -
