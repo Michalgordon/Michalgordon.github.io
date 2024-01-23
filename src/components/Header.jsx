@@ -18,7 +18,7 @@ const Header = () => {
       <nav className="laptop:hidden flex justify-between items-center p-6">
         <motion.h2
           key={location.pathname}
-          className="section-header"
+          className="section-header capitalize"
           initial={{ y: -100 }}
           animate={{ y: 0 }}
           transition={{ duration: 1, type: "spring", bounce: 0.5 }}

@@ -2,7 +2,7 @@ export const PAGES = [
   { title: "Home", path: "/" },
   { title: "About Me", path: "/about" },
   { title: "My Projects", path: "/projects" },
-  { title: "Contact me", path: "/contact" },
+  { title: "Contact Me", path: "/contact" },
 ];
 export const FOOTER_LINKS = [
     {
