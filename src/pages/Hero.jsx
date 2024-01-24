@@ -54,13 +54,14 @@ const Hero = () => {
           </motion.h1>
           <div className="flex flex-col  laptop:w-fit laptop:pl-20 gap-20">
             <motion.h2
-              className="text-xl laptop:text-4xl font-semibold"
+            className="text-2xl laptop:text-5xl font-semibold"
               initial={{ x: "-200%" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.7, type: "spring" }}
             >
-              <span className="text-2xl laptop:text-5xl font-semibold block laptop:inline">
-               A Full Stack Developer.{" "}
+              <span>A Full Stack </span>
+              <span className="block laptop:inline">
+               Developer.{" "}
               </span>
             </motion.h2>
           </div>
