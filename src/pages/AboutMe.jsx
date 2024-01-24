@@ -15,12 +15,12 @@ const AboutMe = () => {
   const blurb = (
     <Fragment>
       <p>
-        I'm a nomadic full stack developer with over
+        I'm a full stack developer with over
         <span className="font-bold uppercase"> 3 years of experience</span>. I
         used to work for a successful startup in Tel Aviv but quit my job to try
         out a different lifestyle in the States. My partner and I are living in
         a van and slowly making our way around the country while rock climbing,
-        backpacking and absorbing the views.
+        hiking and absorbing the views.
       </p>
       <p>
         My experience in a small startup made me a{" "}

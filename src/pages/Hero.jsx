@@ -59,9 +59,8 @@ const Hero = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.7, type: "spring" }}
             >
-              A <span className="italic">Nomadic</span>{" "}
               <span className="text-2xl laptop:text-5xl font-semibold block laptop:inline">
-                Frontend Developer.{" "}
+               A Full Stack Developer.{" "}
               </span>
             </motion.h2>
           </div>

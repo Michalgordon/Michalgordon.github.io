@@ -210,6 +210,6 @@ export const SKILLS = [
         {iconName: "framer-logo", tooltip: "Framer Motion"},
         { iconName: "tailwindcss", tooltip: "tailwind" },
       ],
-      info: "My personal website that I designed and implemented",
+      info: "My personal website that I designed and implemented!",
     },
   ];
