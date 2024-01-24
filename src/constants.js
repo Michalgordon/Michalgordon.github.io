@@ -47,7 +47,7 @@ export const SKILLS = [
     { title: "Figma", iconName: "figma", info: "where UI components are born" },
     { title: "Jira", iconName: "jira", info: "for an agile team that moves FAST" },
     { title: "Tailwind", iconName: "tailwindcss", info: "Let's go Utility classes!" },
-    { title: "Make", iconName: "integromat", info: "Automated complex workflows" },
+    { title: "Make", iconName: "make", info: "Automated complex workflows" },
     { title: "Framer Motion", iconName: "framer-logo", info: "Check out my website's page transitions!" },
 
   ];
