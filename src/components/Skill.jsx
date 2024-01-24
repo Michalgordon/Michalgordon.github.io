@@ -23,7 +23,7 @@ const Skill = ({
         ></Icon>
 
         <h1
-          className={`capitalize font-medium text-sm whitespace-nowrap text-balance	 text-center ${
+          className={`capitalize font-medium text-sm whitespace-nowrap text-balance text-center mx-4 ${
             size === "small" ? "text-xs" : size === "large" ? "" : "text-sm"
           } ${title ? "" : "hidden"}`}
         >
