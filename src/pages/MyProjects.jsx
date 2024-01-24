@@ -42,7 +42,7 @@ const MyProjects = () => {
   });
 
   return (
-    <div className="flex flex-col justify-center flex-grow laptop:px-4 py-10 laptop:px-20">
+    <div className="flex flex-col justify-center flex-grow py-10 laptop:px-20">
       <motion.h2
         className="hidden laptop:flex section-header laptop:relative laptop:-top-20"
         initial={{ y: -100 }}
