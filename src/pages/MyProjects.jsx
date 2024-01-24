@@ -66,9 +66,9 @@ const MyProjects = () => {
         ))}
   
       </motion.div>
-      <nav className="flex gap-4 self-center mt-4 laptop:hidden">
+      <nav className="flex gap-2 self-center mt-4 laptop:hidden">
         {[...PROJECTS.keys()].map((index) => (
-          <span  className={`w-4 h-4 rounded-full border-2 border-pewter-blue ${currentProjectIndex == index? 'bg-pewter-blue' : ''}`} key={index}></span>
+          <span  className={`w-3 h-3 rounded-full border-2 border-pewter-blue ${currentProjectIndex == index? 'bg-pewter-blue' : ''}`} key={index}></span>
         ))}
         </nav>
     </div>
