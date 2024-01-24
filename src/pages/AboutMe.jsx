@@ -56,7 +56,7 @@ const AboutMe = () => {
               className={"w-full laptop:w-[25rem]"}
             ></ProfilePicture>
           </motion.div>
-          <div className="flex flex-col laptop:w-2/3 text-base text-justify px-4">
+          <div className="flex flex-col laptop:w-2/3 text-base text-justify px-4 laptop:px-0">
             <motion.h2
               className="hidden laptop:flex section-header laptop:relative laptop:-top-20"
               initial={{ y: -150 }}
