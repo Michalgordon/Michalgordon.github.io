@@ -54,12 +54,12 @@ p{
   @apply text-sea-kelp
 }
 a{
-  @apply  text-sea-kelp hover:font-semibold
+  @apply text-sea-kelp hover:font-semibold
 }
 a > .icon {
   @apply  hover:[filter:drop-shadow(3px_5px_2px_rgb(154_174_187/_0.4))]
 }
-a:not(.active){
+a:not(.active):not(:hover){
   @apply font-medium
 }
 .active {
