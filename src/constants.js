@@ -33,13 +33,13 @@ export const ORBIT_ICONS = [
   { iconName: "js-square", className: "w-4 laptop:w-8" },
 ];
 export const SKILLS = [
-    { title: "Vue", iconName: "vuejs", info: "my comfort zone!" },
+    { title: "Vue", iconName: "vuejs", info: "My comfort zone!" },
     { title: "React", iconName: "react", info: "Can't wait to dive deeper!" },
     { title: "HTML", iconName: "html5" ,info: "A major building block" },
     { title: "CSS", iconName: "css3-alt" , info: "I love making things look beautiful"},
     { title: "JavaScript", iconName: "js-square", info: "I mean... what can I say?" },
     { title: "Node", iconName: "node-js" , info: "Backend and frontend services" },
-    { title: "REST api", iconName: "cog-solid", info: "implemented and consumed" },
+    { title: "REST API", iconName: "cog-solid", info: "implemented and consumed" },
     { title: "Python", iconName: "python", info: "Backend, automation, and many school projects" },
     { title: "AWS", iconName: "aws", info: "DynamoDB, S3, EC2 and AWS Lambda" },
     { title: "Jest", iconName: "jest-js", info: "Investing in testing" },
@@ -48,7 +48,7 @@ export const SKILLS = [
     { title: "Jira", iconName: "jira", info: "for an agile team that moves FAST" },
     { title: "Tailwind", iconName: "tailwindcss", info: "Let's go Utility classes!" },
     { title: "Make", iconName: "make", info: "Automated complex workflows" },
-    { title: "Framer Motion", iconName: "framer-logo", info: "Check out my website's page transitions!" },
+    { title: "Framer", iconName: "framer-logo", info: "Check out my website's page transitions!" },
 
   ];
   export const SOFT_SKILLS =[
@@ -99,7 +99,7 @@ export const SKILLS = [
       location: "Tel Aviv, Israel",
       company: "Cybint Solutions",
       href: "https://www.linkedin.com/company/starter-digital-israel",
-      title: "Content editor & QA",
+      title: "QA and Content editor",
       info: ["Edited, uploaded and QA'ed educational content"],
       iconName: "cybint-owl",
     },
@@ -109,7 +109,7 @@ export const SKILLS = [
       company: "The Digital starter",
       href: "https://www.linkedin.com/company/starter-digital-israel",
       title: "Volunteer Web Designer",
-      info: ["Designed web pages for a cooperative initiative between “Atidim”, Google and Wix for the development of peripheral businesses in the Jerusalem area."],
+      info: ["Designed web pages for a cooperative initiative between “Atidim”, Google and Wix for the development of peripheral businesses in the Jerusalem area"],
       iconName: "wix",
     },
     {
@@ -118,7 +118,7 @@ export const SKILLS = [
       company: "Hebrew University",
       href: "https://matar.cs.huji.ac.il/he/",
       title: "B.A - Internet and Society",
-      info: ["Alumni of the ‘Internet and Society’ honors program, which combined computer science with social sciences."],
+      info: ["Alumni of the ‘Internet and Society’ honors program, which combined computer science with social sciences"],
       iconName: "scroll-solid",
     },
     {
@@ -198,7 +198,7 @@ export const SKILLS = [
     },
 
     {
-      title: "Personal Portfolio",
+      title: "Personal Website",
       imgSrc: "/assets/images/personal-website.png",
       links: [
         {
