@@ -92,8 +92,16 @@ export const SKILLS = [
       "Worked with AWS services such as DynamoDB, EC2 and S3",
       "Participated in code reviews, peer programming and peer planning",
       "Developed unit tests for complex workflows using Jest and Cypress"],
-      imgSrc: "paradox.jpeg",
-      iconName: "laptop-code-solid",
+      iconName: "paradox",
+    },
+    {
+      timeLine: "2019 - 2020",
+      location: "Tel Aviv, Israel",
+      company: "Cybint Solutions",
+      href: "https://www.linkedin.com/company/starter-digital-israel",
+      title: "Content editor & QA",
+      info: ["Edited, uploaded and QA'ed educational content"],
+      iconName: "cybint-owl",
     },
     {
       timeLine: "2019 - 2020",
@@ -102,7 +110,6 @@ export const SKILLS = [
       href: "https://www.linkedin.com/company/starter-digital-israel",
       title: "Volunteer Web Designer",
       info: ["Designed web pages for a cooperative initiative between “Atidim”, Google and Wix for the development of peripheral businesses in the Jerusalem area."],
-      imgSrc: "",
       iconName: "wix",
     },
     {
@@ -112,7 +119,6 @@ export const SKILLS = [
       href: "https://matar.cs.huji.ac.il/he/",
       title: "B.A - Internet and Society",
       info: ["Alumni of the ‘Internet and Society’ honors program, which combined computer science with social sciences."],
-      imgSrc: "",
       iconName: "scroll-solid",
     },
     {
