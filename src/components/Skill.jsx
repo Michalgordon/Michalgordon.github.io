@@ -30,9 +30,9 @@ const Skill = ({
           {title}
         </h1>
         <p
-          className={`hidden laptop:flex ${
+          className={`hidden laptop:block ${
             info ? "" : "hidden"
-          } first-letter:capitalize text-xs text-center flex-grow`}
+          } text-xs text-center flex-grow`}
         >
           {info}
         </p>

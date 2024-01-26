@@ -51,8 +51,9 @@ h1, h2, h3{
   @apply text-sea-kelp
 }
 p{
-  @apply text-sea-kelp
+  @apply text-sea-kelp first-letter:capitalize
 }
+
 a{
   @apply text-sea-kelp hover:font-semibold
 }
