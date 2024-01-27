@@ -35,7 +35,7 @@ const ProjectCard = ({ title, info, links, skills, imgSrc }) => {
             target="_blank"
             rel="noopener noreferrer"
             download={footerItem.download}
-            className="group flex flex-col justify-center items-center uppercase text-xs border-r-2 border-russian-blue cursor-pointer px-6 hover:[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] last:border-none"
+            className="group flex flex-col justify-center items-center uppercase text-xs border-r-2 border-russian-blue cursor-pointer px-6 last:border-none"
           >
             <Icon
               name={footerItem.iconName}
