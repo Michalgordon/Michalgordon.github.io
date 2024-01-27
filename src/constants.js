@@ -20,7 +20,7 @@ export const FOOTER_LINKS = [
     {
       title: "Resume",
       iconName: "file-download-solid",
-      href: "./assets/files//Resume - Michal Gordon.pdf",
+      href: "./assets/files//Michal Gordon - Full Stack CV.pdf",
       download: true,
     },
 ]
