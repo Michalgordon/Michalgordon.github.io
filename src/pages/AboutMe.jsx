@@ -76,7 +76,7 @@ const AboutMe = () => {
           </div>
         </div>
         <motion.div
-          className="hidden laptop:block relative -bottom-10 self-center h-0"
+          className="hidden laptop:block absolute bottom-5 self-center"
           initial={{ y: 200 }}
           animate={{ y: 0 }}
           transition={{ duration: 1, bounce: 0.5 }}
